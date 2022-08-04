@@ -1,0 +1,11 @@
+{
+  "name": "@practice-pnpm-workspace/ui",
+  "version": "0.0.1",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15"
+  }
+}
