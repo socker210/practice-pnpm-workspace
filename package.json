@@ -1,6 +1,10 @@
 {
   "name": "@practice-pnpm-workspace/monorepo",
   "private": true,
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
   "devDependencies": {
     "@types/node": "^18.6.3",
     "@typescript-eslint/eslint-plugin": "^5.32.0",
@@ -11,6 +15,18 @@
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^2.7.1",
-    "typescript": "^4.7.4"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.7.4",
+    "@storybook/react": "^6.5.10",
+    "@storybook/addon-links": "^6.5.10",
+    "@storybook/addon-essentials": "^6.5.10",
+    "@storybook/addon-actions": "^6.5.10",
+    "@storybook/addon-interactions": "^6.5.10",
+    "@storybook/testing-library": "^0.0.13",
+    "@storybook/builder-webpack4": "^6.5.10",
+    "@storybook/manager-webpack4": "^6.5.10",
+    "@babel/core": "^7.18.10",
+    "babel-loader": "^8.2.5"
   }
 }
